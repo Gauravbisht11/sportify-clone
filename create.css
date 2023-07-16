@@ -2,16 +2,19 @@ ul{
     background-color: black;
     display: flex;
     color: white;
-   
+    
 
 }
+ .center{
+    align-self: center;
+ }
+
 *{
     margin: 0;padding: 0;
 }
 ul li img{
     height: 9vh;
-    margin-left: 12px;
-margin-top: -12px;
+
 }
 li{
     margin: 11px;
@@ -91,9 +94,11 @@ align-items: center;
 }
 .red{
     background-color: red;
+    border-radius: 7px;
     }
 .green{
     background-color: green;
+    border-radius: 7px;
 }
 
 
